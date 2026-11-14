@@ -1,0 +1,18 @@
+# Local database configuration
+src/db.php
+
+# Database exports
+*.sql
+
+# Environment and secret files
+.env
+.env.*
+!.env.example
+
+# Local development files
+.DS_Store
+Thumbs.db
+
+# Uploaded or generated files
+uploads/
+storage/
